@@ -32,12 +32,13 @@
     "yup": "^1.0.2",
     "zustand": "^4.4.6"
   },
-  "scripts": {
-    "dev": "next dev",
-    "analyze": "cross-env ANALYZE=true next build",
-    "build": "next build",
-    "start": "next start"
-  },
+"scripts": {
+  "dev": "next dev",
+  "analyze": "cross-env ANALYZE=true next build",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
