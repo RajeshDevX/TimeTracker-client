@@ -34,10 +34,8 @@
   },
 "scripts": {
   "dev": "next dev",
-  "analyze": "cross-env ANALYZE=true next build",
-  "build": "next build",
-  "export": "next export",
-  "start": "next start"
+  "build": "next build && next export",
+  "start": "serve out"
 },
   "eslintConfig": {
     "extends": [
